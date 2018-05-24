@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 if [[ ! -f ledscape.c ]]; then
 
 	echo "Could not find ledscape.c. Must run from inside the LEDscape directory."
